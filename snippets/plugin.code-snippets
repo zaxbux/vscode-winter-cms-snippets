@@ -1,0 +1,10 @@
+{
+	"Model Scope": {
+		"prefix": "scope",
+		"body": [
+			"public function scope${1:Name}(\\$query) {",
+			"\treturn \\$query$0;",
+			"}",
+		]
+	}
+}

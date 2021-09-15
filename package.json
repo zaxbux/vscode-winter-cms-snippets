@@ -1,0 +1,34 @@
+{
+    "name": "winter-cms-snippets",
+    "displayName": "Winter CMS Snippets",
+    "description": "Snippets for developing Winter CMS plugins and themes.",
+    "repository": {
+        "url": "https://github.com/zaxbux/vscode-winter-cms-snippets.git",
+        "type": "git"
+    },
+    "publisher": "zach",
+    "version": "0.0.1",
+    "icon": ".marketplace/logo.png",
+    "engines": {
+        "vscode": "^1.60.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "php",
+                "path": "./snippets/plugin.code-snippets"
+            },
+            {
+                "language": "ini",
+                "path": "./snippets/theme.code-snippets"
+            },
+            {
+                "language": "twig",
+                "path": "./snippets/theme.code-snippets"
+            }
+        ]
+    }
+}

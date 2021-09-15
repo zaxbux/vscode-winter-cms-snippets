@@ -1,0 +1,54 @@
+{
+	"Winter CMS Page": {
+		"prefix": "page",
+		"body": [
+			"title = \"${TM_FILENAME_BASE/[-_]/ /g}\"",
+			"url = \"/${TM_FILENAME_BASE}\"",
+			"layout = \"${layout:default}\"",
+			"meta_title = \"${TM_FILENAME_BASE/[-_]/ /g}\"",
+			"meta_description = \"${TM_FILENAME_BASE/[-_]/ /g} page.\"",
+			"",
+			"[viewBag]",
+			"==",
+			"<?php",
+			"",
+			"?>",
+			"==",
+			"{##}",
+			"$0"
+		],
+		"description": "Scaffolding for a new CMS Page."
+	},
+	"Winter CMS Layout": {
+		"prefix": "layout",
+		"body": [
+			"description = \"${TM_FILENAME_BASE/[-_]/ /g}\"",
+			"",
+			"[viewBag]",
+			"==",
+			"<?php",
+			"",
+			"?>",
+			"==",
+			"{##}",
+			"$0"
+		],
+		"description": "Scaffolding for a new CMS Layout."
+	},
+	"Winter CMS Partial": {
+		"prefix": "partial",
+		"body": [
+			"description = \"${TM_FILENAME_BASE/[-_]/ /g}\"",
+			"",
+			"[viewBag]",
+			"==",
+			"<?php",
+			"",
+			"?>",
+			"==",
+			"{##}",
+			"$0"
+		],
+		"description": "Scaffolding for a new CMS Partial."
+	}
+}
